@@ -167,7 +167,7 @@ p.logotext2 {
 }
 
 .infotext {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 32px;
     color: rgb(130, 130, 130);
     font-weight: 300;
@@ -298,7 +298,7 @@ p.logotext2 {
 }
 
 .thesis_vdo_text_p {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     margin-bottom: 32px;
     color: rgb(130, 130, 130);
@@ -348,4 +348,210 @@ p.logotext2 {
 .footer_text_right {
     display: flex;
     gap: 16px;
+}
+
+.mobile__header {
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: space-between;
+}
+
+.mobile__navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile__navlist {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+.mobilelogo {
+    height: 36px;
+}
+
+.hero_mobile__banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero_mobile_imgbanner {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.hero_mobile__discription {
+    height: auto;
+    padding: 32px 16px 32px 16px;
+}
+
+.hero_mobile__discription__text1 {
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+    color: rgb(69, 69, 69);
+}
+
+.hero_mobile__discription__text2 {
+    font-size:22px;
+    font-weight: 500px;
+    margin-bottom: 24px;
+    color: rgb(69, 69, 69);
+}
+
+.hero_mobile__discription__button {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(95, 95, 95);
+    
+}
+
+.mobile__information {
+    padding: 16px 16px 32px 16px;
+}
+
+.mobile__information_img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.mobile__information__box__text {
+    padding: 16px 16px 64px 16px;
+}
+
+.mobile__headtext{
+    font-size: 24px;
+    padding-bottom: 8px;
+    color: rgb(69, 69, 69);
+}
+
+.mobile__textdis {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    color: rgb(130, 130, 130);
+}
+
+.mobile__readmore {
+    text-decoration: none;
+    color: rgb(72, 154, 226);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mobile__thesis_exhibit_head_text {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    color: rgb(69, 69, 69);
+}
+
+.mobile__thesis_vdo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.mobile_footer_text {
+    font-size: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.mobile__course__text__head {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    padding: 16px 16px 24px 16px;
+    margin-bottom: 8px;
+    color: rgb(69, 69, 69);
+    border: none;
+    background: rgb(215, 215, 215);
+}
+
+.mobile__course__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 1000px) {
+} */
+
+@media only screen and (max-width: 480px) {
+    .header {
+      display: none;
+    }
+
+    .hero {
+        display: none;
+    }
+
+    .information {
+        display: none;
+    }
+
+    .thesis_exhibit {
+        display: none;
+    }
+
+    .desktop_footer {
+        display: none;
+    }
+
+    .course {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+    .mobile__header {
+      display: none;
+    }
+
+    .hero_mobile {
+        display: none;
+    }
+
+    .mobile__information {
+        display: none;
+    }
+
+    .mobile__thesis_exhibit {
+        display: none;
+    }
+
+    .mobile_footer {
+        display: none;
+    }
+
+    .mobile__course {
+        display: none;
+    }
 }
