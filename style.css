@@ -110,13 +110,14 @@ p.logotext2 {
 
 .information {
     display: flex;
-    padding: 32px 0px 32px 24px;
+    padding: 0px 0px 32px 24px;
     background-color: white;
 }
 
 .information__banner {
     width: 60%;
     height: auto;
+    padding-top: 32px;
 }
 
 .imginformation {
@@ -138,10 +139,12 @@ p.logotext2 {
     height: 30%;
     display: flex;
     align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .information_img {
-    padding: 16px 16px 16px 16px;
+    margin: 16px 16px 16px 16px;
     width: 35%;
     height: auto;
     object-fit: cover;
@@ -150,4 +153,82 @@ p.logotext2 {
 .information__rightbox__boxtext {
     display: flex;
     flex-direction: column;
+}
+
+.information__rightbox__box:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.infoheadtext {
+    font-size: 46px;
+    font-weight: 800px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    color: rgb(69, 69, 69);
+}
+
+.infotext {
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: rgb(69, 69, 69);
+    font-weight: 300;
+}
+
+.infotext2 {
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: rgb(69, 69, 69);
+    font-weight: 400;
+}
+
+.headtext {
+    font-size: 24px;
+    padding-bottom: 8px;
+    color: rgb(69, 69, 69);
+}
+
+.textdis {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    color: rgb(69, 69, 69);
+}
+
+.readmore {
+    text-decoration: none;
+    color: rgb(72, 154, 226);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.course {
+    background-color: rgb(225, 225, 225);
+}
+
+.course_head_text {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: rgb(69, 69, 69);
+}
+
+.course__container {
+    display: flex;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.course__contentbox {
+    width: 30%;
+    height: 400px;
+    background-color: white;
+
 }
