@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+p.logotext1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(86, 86, 86);
+}
+
+p.logotext2 {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(215, 215, 215);
+}
+
+.imglogo {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.navlistlink {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.hero {
+    display: flex;
+    padding: 32px 24px 32px 24px;
+    background-color: rgb(225, 225, 225);
+}
+
+.hero__banner {
+    width: 60%;
+}
+
+.imgbanner {
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero__discription {
+    width: 40%;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__discription__text1 {
+    font-size: 60px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+    color: rgb(69, 69, 69);
+}
+
+.hero__discription__text2 {
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 24px;
+    color: rgb(69, 69, 69);
+}
+
+.hero__discription__button {
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgb(69, 69, 69);
+}
