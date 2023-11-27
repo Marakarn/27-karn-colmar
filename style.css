@@ -105,7 +105,6 @@ p.logotext2 {
     font-size: 20px;
     color: #ffffff;
     background-color: rgb(69, 69, 69);
-    decoration: none;
 }
 
 .information {
@@ -227,8 +226,35 @@ p.logotext2 {
 }
 
 .course__contentbox {
+    flex-grow: 1;
+    flex-shrink: 1;
     width: 30%;
-    height: 400px;
     background-color: white;
 
+}
+
+.course__img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.course__text {
+    padding: 16px 16px 24px 16px;
+}
+
+.course__text__head {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.course__text__p1 {
+    margin-bottom: 8px;
+    font-size: 22px;
+    font-weight: 300px;
+}
+
+.course__text__p2 {
+    font-size: 22px;
+    font-weight: 300px;
 }
