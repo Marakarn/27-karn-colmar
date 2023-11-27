@@ -59,18 +59,20 @@ p.logotext2 {
 
 .hero {
     display: flex;
-    padding: 32px 24px 32px 24px;
+    padding: 32px 0px 32px 24px;
     background-color: rgb(225, 225, 225);
 }
 
 .hero__banner {
     width: 60%;
+    height: auto;
 }
 
 .imgbanner {
-    width: 95%;
+    max-width: 95%;
     height: auto;
     object-fit: cover;
+    display: block;
 }
 
 .hero__discription {
@@ -103,4 +105,49 @@ p.logotext2 {
     font-size: 20px;
     color: #ffffff;
     background-color: rgb(69, 69, 69);
+    decoration: none;
+}
+
+.information {
+    display: flex;
+    padding: 32px 0px 32px 24px;
+    background-color: white;
+}
+
+.information__banner {
+    width: 60%;
+    height: auto;
+}
+
+.imginformation {
+    max-width: 95%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.information__rightbox {
+    width: 40%;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.information__rightbox__box {
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.information_img {
+    padding: 16px 16px 16px 16px;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+}
+
+.information__rightbox__boxtext {
+    display: flex;
+    flex-direction: column;
 }
