@@ -95,7 +95,7 @@ p.logotext2 {
     font-size: 30px;
     font-weight: 500px;
     margin-bottom: 24px;
-    color: rgb(69, 69, 69);
+    color: rgb(130, 130, 130);
 }
 
 .hero__discription__button {
@@ -169,7 +169,7 @@ p.logotext2 {
 .infotext {
     font-size: 16px;
     margin-bottom: 32px;
-    color: rgb(69, 69, 69);
+    color: rgb(130, 130, 130);
     font-weight: 300;
 }
 
@@ -190,7 +190,7 @@ p.logotext2 {
     font-size: 16px;
     font-weight: 300;
     padding-bottom: 8px;
-    color: rgb(69, 69, 69);
+    color: rgb(130, 130, 130);
 }
 
 .readmore {
@@ -228,14 +228,13 @@ p.logotext2 {
 .course__contentbox {
     flex-grow: 1;
     flex-shrink: 1;
-    width: 30%;
+    width: 320px;
     background-color: white;
-
 }
 
 .course__img {
     object-fit: cover;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -246,15 +245,107 @@ p.logotext2 {
 .course__text__head {
     font-size: 32px;
     margin-bottom: 8px;
+    color: rgb(69, 69, 69);
 }
 
 .course__text__p1 {
     margin-bottom: 8px;
     font-size: 22px;
     font-weight: 300px;
+    color: rgb(130, 130, 130);
 }
 
 .course__text__p2 {
     font-size: 22px;
     font-weight: 300px;
+    color: rgb(130, 130, 130);
+}
+
+
+.thesis_exhibit_head_text {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: rgb(69, 69, 69);
+}
+
+.thesis_exhibit_container {
+    display: flex;
+}
+
+.thesis_exhibit_left {
+    width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.thesis_exhibit_right {
+    width: 40%;
+}
+
+.thesis_vdo {
+    width: 100%;
+    height: auto;
+}
+
+.thesis_vdo_text_h {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: rgb(69, 69, 69);
+}
+
+.thesis_vdo_text_p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    color: rgb(130, 130, 130);
+}
+
+.thesis_exhibit_right_box {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.thesis_exhibit_right_box_img {
+    margin-right: 16px;
+    object-fit: cover;
+    max-width: 35%;
+    height: auto;
+}
+
+.thesis_exhibit_right_box_headtext {
+    font-size: 24px;
+    padding-bottom: 8px;
+    color: rgb(69, 69, 69);
+}
+
+.thesis_exhibit_right_box_p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 8px;
+    color: rgb(130, 130, 130);
+}
+
+.border_footer {
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.footer_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgb(130, 130, 130);
+}
+
+.footer_text_right {
+    display: flex;
+    gap: 16px;
 }
